@@ -1,0 +1,62 @@
+{
+  "name": "kea-router-query-sync-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "kea": "^1.0.1",
+    "kea-listeners": "^0.2.3",
+    "kea-localstorage": "^1.0.2",
+    "kea-router": "https://github.com/kairyu/kea-router.git#url-query-sync",
+    "leaflet": "^1.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^2.6.3",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "reselect": "^4.0.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "10.x",
+    "babel-plugin-kea": "^0.1.0",
+    "customize-cra": "^0.9.1",
+    "eslint": "6.x",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-flowtype": "4.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "2.x",
+    "eslint-plugin-standard": "^4.0.1",
+    "react-app-rewired": "^2.1.5",
+    "typescript": "^3.8.3"
+  }
+}
